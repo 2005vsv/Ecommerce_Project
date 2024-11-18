@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecommerce</title>
+    <meta name="vaishnav">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://uilight.netlify.app/main.css">
+    
+</head>
+<body>
+    <div class="d-flex wrap gap" id="products"></div>
+    <div class="card card-vertical d-flex direction-column relative shadow">
+        <div class="card-image-container">
+             <img class="card-image" src="https://uilight.netlify.app/assets/shoes.jpg" alt="shoes">
+        </div>
+        <div class="card-details">
+             <div class="card-title">Premium Collection</div>
+             <div class="card-description">
+                  <p class="card-des">Men Sneakers</p>
+                  <p class="card-price">
+                     Rs. 1750
+                        <span class="price-strike-through">Rs. 2499</span>
+                     <span class="discount">(30% OFF)</span>
+                  </p>
+             </div>
+             <div class="cta-btn">
+                  <button class="button btn-primary btn-icon cart-btn d-flex                          align-center justify-center gap cursor btn-margin">
+                  <img src="https://uilight.netlify.app/assets/cart-white.png" alt="cart"> 
+                    Add To Cart
+                  </button>
+             </div>
+        </div>
+   </div>
+   <div class="card-horizontal d-flex shadow">
+     <div class="card-hori-image-container relative">
+          <img class="card-image" src="https://uilight.netlify.app/assets/shoes.jpg" alt="shoes">
+          <small class="c-badge bg-primary absolute left-0">Trending</small>
+     </div>
+     <div class="card-details d-flex direction-column">
+          <div class="card-title">Premium Collection</div>
+          <div class="card-description">
+               <p class="card-des">Men Sneakers</p>
+               <p class="card-price">Rs. 1750<span class="price-strike-                       through padding-all-8">Rs. 2499</span>
+                  <span class="discount padding-all-8">(30% OFF)</span>
+               </p>
+          </div>
+          <div class="quantity-container d-flex gap">
+               <p class="q-title">Quantity: </p>
+               <div class="count-container d-flex align-center gap">
+                    <button class="count">-</button>
+                    <span class="count-value">1</span>
+                    <button class="count">+</button>
+               </div>
+          </div>
+          <div class="cta-btn d-flex gap">
+               <div class="cta-btn">
+                   <button class="button hori-btn btn-primary btn-icon d-               flex align-center justify-center gap cursor btn-margin"><img                 src="/assets/cart-white.png" alt="cart"> Add To Cart</button>
+               </div>
+               <div class="cta-btn">
+                   <button class="button hori-btn btn-outline-primary btn-               icon d-flex align-center justify-center gap cursor btn-margin">
+                   Move to ❤️</button>
+                </div>
+          </div>
+     </div>
+</div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
